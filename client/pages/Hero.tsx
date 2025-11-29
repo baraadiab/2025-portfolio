@@ -54,18 +54,69 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right side - Headshot */}
+        {/* Right side - Headshot with Creative Design */}
         <div className="order-1 md:order-2 flex justify-center md:justify-end">
-          <div className="relative">
-            {/* Decorative ring around image */}
-            <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent rounded-3xl opacity-20 blur-xl"></div>
-            <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent rounded-3xl opacity-10"></div>
+          <div className="relative w-80 h-80">
+            {/* Animated Rotating Border */}
+            <div className="absolute inset-0 rounded-3xl animate-rotate-border" style={{
+              background: 'conic-gradient(from 0deg, #3b82f6, #8b5cf6, #10b981, #3b82f6)',
+              padding: '3px',
+              borderRadius: '24px',
+            }}>
+              <div className="absolute inset-0 bg-white rounded-3xl" style={{ margin: '3px' }}></div>
+            </div>
 
+            {/* Gradient Mesh Background */}
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/10 to-accent/20 rounded-3xl opacity-40 blur-lg"></div>
+
+            {/* Glassmorphism Layer */}
+            <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/10 backdrop-blur-md rounded-3xl border border-white/30"></div>
+
+            {/* Main Image */}
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F2b1419a574084f78ba442616360d9a8e%2Fb45b4313a54049f09efb49884bd6d5d5?format=webp&width=800"
               alt="Baraa Diyab"
-              className="w-80 h-80 object-cover rounded-3xl relative z-10 shadow-2xl"
+              className="w-full h-full object-cover rounded-3xl relative z-20 shadow-2xl"
             />
+
+            {/* Floating Skill Badges */}
+            {/* Badge 1 - Top Left */}
+            <div className="absolute -top-6 -left-6 z-30 animate-float-up">
+              <div className="bg-gradient-to-br from-primary to-secondary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md">
+                Product 🚀
+              </div>
+            </div>
+
+            {/* Badge 2 - Top Right */}
+            <div className="absolute -top-4 -right-8 z-30 animate-float-right" style={{ animationDelay: '0.5s' }}>
+              <div className="bg-gradient-to-br from-secondary to-accent text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md">
+                CCaaS 💡
+              </div>
+            </div>
+
+            {/* Badge 3 - Bottom Right */}
+            <div className="absolute -bottom-4 -right-6 z-30 animate-float-up" style={{ animationDelay: '1s' }}>
+              <div className="bg-gradient-to-br from-accent to-primary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md">
+                SaaS ⚡
+              </div>
+            </div>
+
+            {/* Badge 4 - Bottom Left */}
+            <div className="absolute -bottom-6 -left-4 z-30 animate-float-right" style={{ animationDelay: '1.5s' }}>
+              <div className="bg-gradient-to-br from-primary to-accent text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md">
+                AI/Data 🧠
+              </div>
+            </div>
+
+            {/* Floating Orbs */}
+            <div className="absolute -top-12 -right-12 w-24 h-24 bg-primary/20 rounded-full blur-2xl animate-pulse-glow"></div>
+            <div className="absolute -bottom-16 -left-8 w-32 h-32 bg-secondary/15 rounded-full blur-3xl animate-pulse-glow" style={{ animationDelay: '0.5s' }}></div>
+            <div className="absolute top-1/2 -right-16 w-20 h-20 bg-accent/20 rounded-full blur-2xl animate-pulse-glow" style={{ animationDelay: '1s' }}></div>
+
+            {/* Glow Effect */}
+            <div className="absolute inset-0 rounded-3xl shadow-2xl" style={{
+              boxShadow: '0 0 60px rgba(59, 130, 246, 0.4), inset 0 0 60px rgba(139, 92, 246, 0.1)',
+            }}></div>
           </div>
         </div>
       </div>
