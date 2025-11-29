@@ -59,10 +59,10 @@ export default function Contact() {
                     <p className="text-sm text-muted-foreground">Email</p>
                     <p className="text-lg font-semibold text-foreground">
                       <a
-                        href="mailto:baraa@example.com"
+                        href="mailto:baraa98diab@outlook.com"
                         className="hover:text-primary transition-colors"
                       >
-                        hello@baraadiyab.com
+                        baraa98diab@outlook.com
                       </a>
                     </p>
                   </div>
@@ -78,12 +78,12 @@ export default function Contact() {
                     <p className="text-sm text-muted-foreground">LinkedIn</p>
                     <p className="text-lg font-semibold text-foreground">
                       <a
-                        href="https://linkedin.com/in/baraa-diyab"
+                        href="https://www.linkedin.com/in/baraa-diyab-b37618175/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-primary transition-colors"
                       >
-                        /in/baraa-diyab
+                        /in/baraa-diyab-b37618175
                       </a>
                     </p>
                   </div>
