@@ -7,55 +7,61 @@ export default function Portfolio() {
       company: "Odea Integrations",
       type: "CCaaS",
       focus: "Agent Desktop + Integrations",
-      description: "A unified agent desktop that centralizes tools, channels, and customer data—helping support teams work faster, smarter, and deliver better customer experiences.",
+      description:
+        "A unified agent desktop that centralizes tools, channels, and customer data—helping support teams work faster, smarter, and deliver better customer experiences.",
       outcome: "Improved agent productivity, centralized workflows",
-      color: "from-purple-500 to-pink-500"
+      color: "from-purple-500 to-pink-500",
     },
     {
       name: "Konvrsa",
       company: "Odea Integrations",
       type: "AI Chatbot",
       focus: "AI Virtual Agent Platform",
-      description: "An AI-powered virtual agent platform that automates customer interactions across channels. It helps businesses boost efficiency, reduce response times, and deliver 24/7 intelligent support at scale.",
+      description:
+        "An AI-powered virtual agent platform that automates customer interactions across channels. It helps businesses boost efficiency, reduce response times, and deliver 24/7 intelligent support at scale.",
       outcome: "24/7 automated support, reduced response times",
-      color: "from-blue-500 to-cyan-500"
+      color: "from-blue-500 to-cyan-500",
     },
     {
       name: "Amazon Connect Integrations",
       company: "Odea Integrations",
       type: "Integration",
       focus: "Cloud Contact Center",
-      description: "Customized Amazon Connect solutions that integrate with CRMs and business tools, offering intelligent IVRs, real-time reporting, and automated workflows for efficient, cloud-based contact centers.",
+      description:
+        "Customized Amazon Connect solutions that integrate with CRMs and business tools, offering intelligent IVRs, real-time reporting, and automated workflows for efficient, cloud-based contact centers.",
       outcome: "Streamlined integrations, enhanced reporting",
-      color: "from-orange-500 to-red-500"
+      color: "from-orange-500 to-red-500",
     },
     {
       name: "Web Scraper Engine",
       company: "AI Crafts",
       type: "AI/Data",
       focus: "Data Collection & Structuring",
-      description: "A powerful scraping engine built to collect and structure data from e-commerce platforms, supporting a recommendation system powered by Neo4j for smarter, personalized user experiences.",
+      description:
+        "A powerful scraping engine built to collect and structure data from e-commerce platforms, supporting a recommendation system powered by Neo4j for smarter, personalized user experiences.",
       outcome: "Efficient data collection, AI-driven recommendations",
-      color: "from-green-500 to-emerald-500"
+      color: "from-green-500 to-emerald-500",
     },
     {
       name: "Tukan Store",
       company: "AI Crafts",
       type: "E-commerce",
       focus: "Mobile Shopping Platform",
-      description: "A mobile shopping platform that delivers the best prices in Türkiye right to your doorstep. Users can browse and purchase top deals instantly through the app.",
+      description:
+        "A mobile shopping platform that delivers the best prices in Türkiye right to your doorstep. Users can browse and purchase top deals instantly through the app.",
       outcome: "Increased user engagement, streamlined shopping experience",
-      color: "from-yellow-500 to-amber-500"
+      color: "from-yellow-500 to-amber-500",
     },
     {
       name: "Naseem Alsafwa",
       company: "NBS",
       type: "E-commerce",
       focus: "Medical Supplies Platform",
-      description: "Mobile and website online store for medical supplies and equipment, providing healthcare professionals and patients with reliable access to essential medical products.",
+      description:
+        "Mobile and website online store for medical supplies and equipment, providing healthcare professionals and patients with reliable access to essential medical products.",
       outcome: "Accessible medical supplies, improved customer reach",
-      color: "from-indigo-500 to-purple-500"
-    }
+      color: "from-indigo-500 to-purple-500",
+    },
   ];
 
   return (
@@ -71,7 +77,9 @@ export default function Portfolio() {
           </div>
 
           <p className="text-xl text-muted-foreground max-w-2xl">
-            A curated selection of products and platforms I've led or contributed to, showcasing expertise in CCaaS, SaaS, AI, and e-commerce.
+            A curated selection of products and platforms I've led or
+            contributed to, showcasing expertise in CCaaS, SaaS, AI, and
+            e-commerce.
           </p>
         </div>
       </section>
@@ -118,9 +126,7 @@ export default function Portfolio() {
                   <p className="text-sm font-semibold text-primary mb-1">
                     Outcome
                   </p>
-                  <p className="text-sm text-foreground">
-                    {project.outcome}
-                  </p>
+                  <p className="text-sm text-foreground">{project.outcome}</p>
                 </div>
 
                 {/* CTA */}
@@ -137,11 +143,10 @@ export default function Portfolio() {
       {/* CTA Section */}
       <section className="py-20 px-6 container max-w-6xl mx-auto">
         <div className="bg-gradient-to-br from-primary via-secondary to-accent rounded-3xl p-12 text-center text-white space-y-6">
-          <h2 className="text-4xl font-bold">
-            Interested in learning more?
-          </h2>
+          <h2 className="text-4xl font-bold">Interested in learning more?</h2>
           <p className="text-lg opacity-90 max-w-2xl mx-auto">
-            Explore detailed case studies, discover my process, and see how I translate product vision into measurable outcomes.
+            Explore detailed case studies, discover my process, and see how I
+            translate product vision into measurable outcomes.
           </p>
           <button className="inline-block px-8 py-3 bg-white text-primary rounded-lg font-semibold hover:bg-gray-100 transition-colors">
             View All Case Studies

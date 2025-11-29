@@ -11,7 +11,7 @@ export default function Navigation() {
     { path: "/about", label: "About" },
     { path: "/portfolio", label: "Portfolio" },
     { path: "/case-studies", label: "Case Studies" },
-    { path: "/contact", label: "Contact" }
+    { path: "/contact", label: "Contact" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -50,11 +50,7 @@ export default function Navigation() {
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden p-2 hover:bg-blue-50 rounded-lg transition-colors"
           >
-            {isOpen ? (
-              <X className="w-6 h-6" />
-            ) : (
-              <Menu className="w-6 h-6" />
-            )}
+            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
 

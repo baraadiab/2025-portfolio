@@ -99,7 +99,8 @@ export default function Footer() {
             © {currentYear} Baraa Diyab. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
-            Built with <span className="text-primary">React</span> + <span className="text-primary">Tailwind</span>
+            Built with <span className="text-primary">React</span> +{" "}
+            <span className="text-primary">Tailwind</span>
           </p>
         </div>
       </div>

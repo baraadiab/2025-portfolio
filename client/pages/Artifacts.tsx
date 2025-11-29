@@ -19,7 +19,8 @@ export default function Artifacts() {
                 Deliverables & Documentation
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                This section will showcase product artifacts that demonstrate my proficiency in core PM deliverables.
+                This section will showcase product artifacts that demonstrate my
+                proficiency in core PM deliverables.
               </p>
             </div>
 

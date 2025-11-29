@@ -19,7 +19,9 @@ export default function CaseStudies() {
                 Coming Soon
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                I'm currently working on detailed case studies that showcase the problems I've solved, my approach, and the measurable impact of my work.
+                I'm currently working on detailed case studies that showcase the
+                problems I've solved, my approach, and the measurable impact of
+                my work.
               </p>
             </div>
 

@@ -34,7 +34,8 @@ export default function Hero() {
           </div>
 
           <p className="text-xl text-foreground leading-relaxed max-w-xl">
-            Turning complexity into clarity – building customer-first, integration-ready products
+            Turning complexity into clarity – building customer-first,
+            integration-ready products
           </p>
 
           <div className="flex gap-4 pt-4">

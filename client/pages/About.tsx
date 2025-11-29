@@ -1,14 +1,14 @@
-import { 
-  Target, 
-  Zap, 
-  BarChart3, 
-  Users, 
-  Code2, 
+import {
+  Target,
+  Zap,
+  BarChart3,
+  Users,
+  Code2,
   Cpu,
   Search,
   ClipboardList,
   Brain,
-  GitBranch
+  GitBranch,
 } from "lucide-react";
 
 export default function About() {
@@ -16,13 +16,25 @@ export default function About() {
     {
       category: "Product",
       icon: Target,
-      items: ["Product Discovery", "Backlog Ownership", "User Stories", "Sprint Planning", "Customer Journeys"]
+      items: [
+        "Product Discovery",
+        "Backlog Ownership",
+        "User Stories",
+        "Sprint Planning",
+        "Customer Journeys",
+      ],
     },
     {
       category: "Technical",
       icon: Code2,
-      items: ["Data Analysis", "System Architecture", "CCaaS & Amazon Connect", "API Design", "Integration Patterns"]
-    }
+      items: [
+        "Data Analysis",
+        "System Architecture",
+        "CCaaS & Amazon Connect",
+        "API Design",
+        "Integration Patterns",
+      ],
+    },
   ];
 
   const tools = [
@@ -33,7 +45,7 @@ export default function About() {
     { name: "Mixpanel", icon: "📊" },
     { name: "Google Analytics", icon: "📈" },
     { name: "Notion", icon: "📝" },
-    { name: "Postman", icon: "🔗" }
+    { name: "Postman", icon: "🔗" },
   ];
 
   return (
@@ -50,21 +62,35 @@ export default function About() {
 
           <div className="prose prose-lg max-w-4xl">
             <p className="text-lg leading-relaxed text-foreground bg-white/50 backdrop-blur rounded-xl p-8 border border-blue-100">
-              I didn't always know I wanted to be in Product management. But after studying Computer Engineering at Altınbaş Üniversitesi, I discovered something: I love being at the intersection of technology and people—translating complex technical possibilities into products that solve real problems. Today at Odea Integrations, every sprint, I'm bridging the gap between what stakeholders envision and what teams can build, making sure we deliver features that actually matter.
+              I didn't always know I wanted to be in Product management. But
+              after studying Computer Engineering at Altınbaş Üniversitesi, I
+              discovered something: I love being at the intersection of
+              technology and people—translating complex technical possibilities
+              into products that solve real problems. Today at Odea
+              Integrations, every sprint, I'm bridging the gap between what
+              stakeholders envision and what teams can build, making sure we
+              deliver features that actually matter.
             </p>
 
             <p className="text-lg leading-relaxed text-foreground mt-6 bg-white/50 backdrop-blur rounded-xl p-8 border border-blue-100">
-              My approach? Stay technical enough to challenge assumptions, stay collaborative enough to bring teams together, and stay focused on outcomes that move the needle.
+              My approach? Stay technical enough to challenge assumptions, stay
+              collaborative enough to bring teams together, and stay focused on
+              outcomes that move the needle.
             </p>
           </div>
         </div>
       </section>
 
       {/* Skills Section */}
-      <section id="about-section" className="py-20 px-6 container max-w-6xl mx-auto">
+      <section
+        id="about-section"
+        className="py-20 px-6 container max-w-6xl mx-auto"
+      >
         <div className="space-y-12">
           <div className="space-y-4">
-            <h2 className="text-4xl font-bold text-foreground">Core Competencies</h2>
+            <h2 className="text-4xl font-bold text-foreground">
+              Core Competencies
+            </h2>
             <div className="h-1 w-20 bg-gradient-to-r from-primary via-secondary to-accent rounded-full"></div>
           </div>
 
@@ -106,7 +132,9 @@ export default function About() {
       <section className="py-20 px-6 container max-w-6xl mx-auto">
         <div className="space-y-12">
           <div className="space-y-4">
-            <h2 className="text-4xl font-bold text-foreground">Tools & Technologies</h2>
+            <h2 className="text-4xl font-bold text-foreground">
+              Tools & Technologies
+            </h2>
             <div className="h-1 w-20 bg-gradient-to-r from-primary via-secondary to-accent rounded-full"></div>
           </div>
 

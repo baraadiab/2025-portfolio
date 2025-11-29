@@ -17,10 +17,13 @@ export default function Contact() {
             <div className="space-y-6">
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold text-foreground">
-                  Let's discuss how I can drive clarity and outcomes in your product initiatives.
+                  Let's discuss how I can drive clarity and outcomes in your
+                  product initiatives.
                 </h2>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Whether you're looking to streamline your product processes, build better integrations, or scale your product team, I'm always open to meaningful conversations.
+                  Whether you're looking to streamline your product processes,
+                  build better integrations, or scale your product team, I'm
+                  always open to meaningful conversations.
                 </p>
               </div>
 
@@ -30,13 +33,16 @@ export default function Contact() {
                 </p>
                 <div className="space-y-2">
                   <p className="text-foreground">
-                    <span className="font-semibold">CCaaS & SaaS:</span> Building scalable, integration-ready products
+                    <span className="font-semibold">CCaaS & SaaS:</span>{" "}
+                    Building scalable, integration-ready products
                   </p>
                   <p className="text-foreground">
-                    <span className="font-semibold">AI & Automation:</span> Virtual agents, IVRs, intelligent workflows
+                    <span className="font-semibold">AI & Automation:</span>{" "}
+                    Virtual agents, IVRs, intelligent workflows
                   </p>
                   <p className="text-foreground">
-                    <span className="font-semibold">Team Leadership:</span> Product strategy, cross-functional collaboration
+                    <span className="font-semibold">Team Leadership:</span>{" "}
+                    Product strategy, cross-functional collaboration
                   </p>
                 </div>
               </div>
@@ -52,7 +58,10 @@ export default function Contact() {
                   <div className="flex-1">
                     <p className="text-sm text-muted-foreground">Email</p>
                     <p className="text-lg font-semibold text-foreground">
-                      <a href="mailto:baraa@example.com" className="hover:text-primary transition-colors">
+                      <a
+                        href="mailto:baraa@example.com"
+                        className="hover:text-primary transition-colors"
+                      >
                         hello@baraadiyab.com
                       </a>
                     </p>
@@ -106,11 +115,10 @@ export default function Contact() {
 
           {/* Brand statement */}
           <div className="mt-16 bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 rounded-3xl p-12 border border-primary/20 space-y-4">
-            <p className="text-xl text-primary font-semibold">
-              My Brand
-            </p>
+            <p className="text-xl text-primary font-semibold">My Brand</p>
             <p className="text-2xl font-bold text-foreground leading-relaxed">
-              "I build and scale CCaaS & AI-driven SaaS products. I simplify complex systems and bring clarity to product teams."
+              "I build and scale CCaaS & AI-driven SaaS products. I simplify
+              complex systems and bring clarity to product teams."
             </p>
           </div>
         </div>
