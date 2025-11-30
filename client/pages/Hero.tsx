@@ -26,7 +26,7 @@ export default function Hero() {
               Baraa <span className="text-primary">Diyab</span>
             </h1>
             <p className="text-2xl md:text-3xl font-semibold text-primary">
-              Product Manager & Product Owner
+              Product Owner | Digital Delivery
             </p>
             <p className="text-lg text-muted-foreground font-medium">
               CCaaS & SaaS Integrations Specialist
