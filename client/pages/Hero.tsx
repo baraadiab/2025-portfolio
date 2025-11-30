@@ -116,17 +116,6 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Triangle Border Glow */}
-            <div className="absolute inset-0 flex items-center justify-center" style={{ transform: 'rotate(15deg)' }}>
-              <div
-                className="w-72 h-72 shadow-2xl"
-                style={{
-                  clipPath: 'polygon(50% 0%, 100% 100%, 0% 100%)',
-                  boxShadow: '0 0 40px rgba(59, 130, 246, 0.3), inset 0 0 40px rgba(139, 92, 246, 0.05)',
-                  transform: 'rotate(-15deg)',
-                }}
-              ></div>
-            </div>
           </div>
         </div>
       </div>
