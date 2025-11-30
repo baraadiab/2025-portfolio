@@ -54,68 +54,18 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right side - Headshot with Rotated Design */}
+        {/* Right side - Headshot */}
         <div className="order-1 md:order-2 flex justify-center md:justify-end">
-          <div className="relative w-96 h-96 flex items-center justify-center">
-            {/* Rotated Image Container - Full image visible */}
-            <div style={{ transform: 'rotate(18deg)' }} className="relative">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F2b1419a574084f78ba442616360d9a8e%2Fb45b4313a54049f09efb49884bd6d5d5?format=webp&width=800"
-                alt="Baraa Diyab"
-                className="w-72 h-72 object-cover shadow-2xl rounded-lg"
-              />
-              {/* Subtle border glow */}
-              <div
-                className="absolute inset-0 rounded-lg"
-                style={{
-                  boxShadow: '0 0 40px rgba(59, 130, 246, 0.3), inset 0 0 40px rgba(139, 92, 246, 0.05)',
-                }}
-              ></div>
-            </div>
+          <div className="relative">
+            {/* Decorative ring around image */}
+            <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent rounded-3xl opacity-20 blur-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent rounded-3xl opacity-10"></div>
 
-            {/* Floating Skill Badges - Product */}
-            {/* Badge 1 - Top */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 z-30 animate-float-up">
-              <div className="bg-gradient-to-br from-primary to-secondary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
-                Product 🚀
-              </div>
-            </div>
-
-            {/* Badge 2 - Top Right */}
-            <div className="absolute top-12 -right-12 z-30 animate-float-right" style={{ animationDelay: '0.5s' }}>
-              <div className="bg-gradient-to-br from-secondary to-accent text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
-                CCaaS 💡
-              </div>
-            </div>
-
-            {/* Badge 3 - Right */}
-            <div className="absolute top-1/2 -right-16 -translate-y-1/2 z-30 animate-float-right" style={{ animationDelay: '1s' }}>
-              <div className="bg-gradient-to-br from-accent to-primary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
-                SaaS ⚡
-              </div>
-            </div>
-
-            {/* Badge 4 - Bottom Right (eCommerce) */}
-            <div className="absolute bottom-8 -right-12 z-30 animate-float-up" style={{ animationDelay: '1.5s' }}>
-              <div className="bg-gradient-to-br from-orange-500 to-red-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
-                eCommerce 🛍️
-              </div>
-            </div>
-
-            {/* Badge 5 - Bottom Left (AI) */}
-            <div className="absolute bottom-8 -left-16 z-30 animate-float-up" style={{ animationDelay: '0.8s' }}>
-              <div className="bg-gradient-to-br from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
-                AI/Automation 🤖
-              </div>
-            </div>
-
-            {/* Badge 6 - Bottom (Data & Analytics) */}
-            <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 z-30 animate-float-right" style={{ animationDelay: '1.2s' }}>
-              <div className="bg-gradient-to-br from-green-500 to-emerald-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
-                Analytics 📊
-              </div>
-            </div>
-
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F2b1419a574084f78ba442616360d9a8e%2Fb45b4313a54049f09efb49884bd6d5d5?format=webp&width=800"
+              alt="Baraa Diyab"
+              className="w-80 h-80 object-cover rounded-3xl relative z-10 shadow-2xl"
+            />
           </div>
         </div>
       </div>
