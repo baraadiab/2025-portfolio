@@ -54,69 +54,76 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right side - Headshot with Creative Design */}
+        {/* Right side - Headshot with Rotated Triangle Design */}
         <div className="order-1 md:order-2 flex justify-center md:justify-end">
-          <div className="relative w-80 h-80">
-            {/* Animated Rotating Border */}
-            <div className="absolute inset-0 rounded-3xl animate-rotate-border" style={{
-              background: 'conic-gradient(from 0deg, #3b82f6, #8b5cf6, #10b981, #3b82f6)',
-              padding: '3px',
-              borderRadius: '24px',
-            }}>
-              <div className="absolute inset-0 bg-white rounded-3xl" style={{ margin: '3px' }}></div>
+          <div className="relative w-96 h-96">
+            {/* Rotated Triangle Image Container */}
+            <div className="absolute inset-0 flex items-center justify-center" style={{ transform: 'rotate(15deg)' }}>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F2b1419a574084f78ba442616360d9a8e%2Fb45b4313a54049f09efb49884bd6d5d5?format=webp&width=800"
+                alt="Baraa Diyab"
+                className="w-72 h-72 object-cover shadow-2xl"
+                style={{
+                  clipPath: 'polygon(50% 0%, 100% 100%, 0% 100%)',
+                  transform: 'rotate(-15deg)',
+                }}
+              />
             </div>
 
-            {/* Gradient Mesh Background */}
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/10 to-accent/20 rounded-3xl opacity-40 blur-lg"></div>
-
-            {/* Glassmorphism Layer */}
-            <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/10 backdrop-blur-md rounded-3xl border border-white/30"></div>
-
-            {/* Main Image */}
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F2b1419a574084f78ba442616360d9a8e%2Fb45b4313a54049f09efb49884bd6d5d5?format=webp&width=800"
-              alt="Baraa Diyab"
-              className="w-full h-full object-cover rounded-3xl relative z-20 shadow-2xl"
-            />
-
-            {/* Floating Skill Badges */}
-            {/* Badge 1 - Top Left */}
-            <div className="absolute -top-6 -left-6 z-30 animate-float-up">
-              <div className="bg-gradient-to-br from-primary to-secondary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md">
+            {/* Floating Skill Badges - Product */}
+            {/* Badge 1 - Top */}
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 z-30 animate-float-up">
+              <div className="bg-gradient-to-br from-primary to-secondary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
                 Product 🚀
               </div>
             </div>
 
             {/* Badge 2 - Top Right */}
-            <div className="absolute -top-4 -right-8 z-30 animate-float-right" style={{ animationDelay: '0.5s' }}>
-              <div className="bg-gradient-to-br from-secondary to-accent text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md">
+            <div className="absolute top-12 -right-12 z-30 animate-float-right" style={{ animationDelay: '0.5s' }}>
+              <div className="bg-gradient-to-br from-secondary to-accent text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
                 CCaaS 💡
               </div>
             </div>
 
-            {/* Badge 3 - Bottom Right */}
-            <div className="absolute -bottom-4 -right-6 z-30 animate-float-up" style={{ animationDelay: '1s' }}>
-              <div className="bg-gradient-to-br from-accent to-primary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md">
+            {/* Badge 3 - Right */}
+            <div className="absolute top-1/2 -right-16 -translate-y-1/2 z-30 animate-float-right" style={{ animationDelay: '1s' }}>
+              <div className="bg-gradient-to-br from-accent to-primary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
                 SaaS ⚡
               </div>
             </div>
 
-            {/* Badge 4 - Bottom Left */}
-            <div className="absolute -bottom-6 -left-4 z-30 animate-float-right" style={{ animationDelay: '1.5s' }}>
-              <div className="bg-gradient-to-br from-primary to-accent text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md">
-                AI/Data 🧠
+            {/* Badge 4 - Bottom Right (eCommerce) */}
+            <div className="absolute bottom-8 -right-12 z-30 animate-float-up" style={{ animationDelay: '1.5s' }}>
+              <div className="bg-gradient-to-br from-orange-500 to-red-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
+                eCommerce 🛍️
               </div>
             </div>
 
-            {/* Floating Orbs */}
-            <div className="absolute -top-12 -right-12 w-24 h-24 bg-primary/20 rounded-full blur-2xl animate-pulse-glow"></div>
-            <div className="absolute -bottom-16 -left-8 w-32 h-32 bg-secondary/15 rounded-full blur-3xl animate-pulse-glow" style={{ animationDelay: '0.5s' }}></div>
-            <div className="absolute top-1/2 -right-16 w-20 h-20 bg-accent/20 rounded-full blur-2xl animate-pulse-glow" style={{ animationDelay: '1s' }}></div>
+            {/* Badge 5 - Bottom Left (AI) */}
+            <div className="absolute bottom-8 -left-16 z-30 animate-float-up" style={{ animationDelay: '0.8s' }}>
+              <div className="bg-gradient-to-br from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
+                AI/Automation 🤖
+              </div>
+            </div>
 
-            {/* Glow Effect */}
-            <div className="absolute inset-0 rounded-3xl shadow-2xl" style={{
-              boxShadow: '0 0 60px rgba(59, 130, 246, 0.4), inset 0 0 60px rgba(139, 92, 246, 0.1)',
-            }}></div>
+            {/* Badge 6 - Bottom (Data & Analytics) */}
+            <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 z-30 animate-float-right" style={{ animationDelay: '1.2s' }}>
+              <div className="bg-gradient-to-br from-green-500 to-emerald-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg backdrop-blur-md whitespace-nowrap">
+                Analytics 📊
+              </div>
+            </div>
+
+            {/* Triangle Border Glow */}
+            <div className="absolute inset-0 flex items-center justify-center" style={{ transform: 'rotate(15deg)' }}>
+              <div
+                className="w-72 h-72 shadow-2xl"
+                style={{
+                  clipPath: 'polygon(50% 0%, 100% 100%, 0% 100%)',
+                  boxShadow: '0 0 40px rgba(59, 130, 246, 0.3), inset 0 0 40px rgba(139, 92, 246, 0.05)',
+                  transform: 'rotate(-15deg)',
+                }}
+              ></div>
+            </div>
           </div>
         </div>
       </div>
