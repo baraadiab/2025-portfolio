@@ -54,20 +54,23 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right side - Headshot with Rotated Triangle Design */}
+        {/* Right side - Headshot with Rotated Design */}
         <div className="order-1 md:order-2 flex justify-center md:justify-end">
-          <div className="relative w-96 h-96">
-            {/* Rotated Triangle Image Container */}
-            <div className="absolute inset-0 flex items-center justify-center" style={{ transform: 'rotate(15deg)' }}>
+          <div className="relative w-96 h-96 flex items-center justify-center">
+            {/* Rotated Image Container - Full image visible */}
+            <div style={{ transform: 'rotate(18deg)' }} className="relative">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F2b1419a574084f78ba442616360d9a8e%2Fb45b4313a54049f09efb49884bd6d5d5?format=webp&width=800"
                 alt="Baraa Diyab"
-                className="w-72 h-72 object-cover shadow-2xl"
-                style={{
-                  clipPath: 'polygon(50% 0%, 100% 100%, 0% 100%)',
-                  transform: 'rotate(-15deg)',
-                }}
+                className="w-72 h-72 object-cover shadow-2xl rounded-lg"
               />
+              {/* Subtle border glow */}
+              <div
+                className="absolute inset-0 rounded-lg"
+                style={{
+                  boxShadow: '0 0 40px rgba(59, 130, 246, 0.3), inset 0 0 40px rgba(139, 92, 246, 0.05)',
+                }}
+              ></div>
             </div>
 
             {/* Floating Skill Badges - Product */}
