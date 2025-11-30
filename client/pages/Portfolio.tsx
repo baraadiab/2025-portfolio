@@ -62,6 +62,16 @@ export default function Portfolio() {
       outcome: "Accessible medical supplies, improved customer reach",
       color: "from-indigo-500 to-purple-500",
     },
+    {
+      name: "Stampry",
+      company: "Stampry",
+      type: "Print-On-Demand",
+      focus: "Custom Sticker Printing Platform",
+      description:
+        "A custom sticker printing platform that empowers individuals and businesses to turn their ideas into high-quality, personalized stickers. With an easy-to-use interface, customers can upload their own designs, choose from a variety of sticker shapes and sizes, and place orders in just a few clicks. Whether you need clear, circle, square, die-cut, or bumper stickers, Stampry delivers fast, vibrant, and durable prints that stick with your story.",
+      outcome: "Accessible creative expression, streamlined design-to-print workflow",
+      color: "from-pink-500 to-rose-500",
+    },
   ];
 
   return (
