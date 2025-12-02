@@ -3,6 +3,17 @@ import { ArrowRight } from "lucide-react";
 export default function Portfolio() {
   const projects = [
     {
+      name: "Loyalty Plus",
+      company: "Independent SaaS Project",
+      type: "SaaS",
+      focus: "Customer Loyalty & Retention Platform",
+      description:
+        "A unified, intelligent platform that empowers businesses to effortlessly transform every customer interaction—across online, physical, and hybrid channels—into a lasting, profitable relationship through personalized loyalty and deep behavioral insights. Loyalty Plus enables businesses to increase customer lifetime value, improve retention rates, and gain deeper understanding of customer behavior patterns.",
+      outcome:
+        "Enhanced customer retention, increased lifetime value, actionable behavioral insights",
+      color: "from-cyan-500 to-teal-500",
+    },
+    {
       name: "Agent 360",
       company: "Odea Integrations",
       type: "CCaaS",
@@ -64,7 +75,7 @@ export default function Portfolio() {
     },
     {
       name: "Stampry",
-      company: "Stampry",
+      company: "Independent",
       type: "Print-On-Demand",
       focus: "Custom Sticker Printing Platform",
       description:
@@ -72,17 +83,6 @@ export default function Portfolio() {
       outcome:
         "Accessible creative expression, streamlined design-to-print workflow",
       color: "from-pink-500 to-rose-500",
-    },
-    {
-      name: "Loyalty Plus",
-      company: "Personal Project",
-      type: "SaaS",
-      focus: "Customer Loyalty & Retention Platform",
-      description:
-        "A unified, intelligent platform that empowers businesses to effortlessly transform every customer interaction—across online, physical, and hybrid channels—into a lasting, profitable relationship through personalized loyalty and deep behavioral insights. Loyalty Plus enables businesses to increase customer lifetime value, improve retention rates, and gain deeper understanding of customer behavior patterns.",
-      outcome:
-        "Enhanced customer retention, increased lifetime value, actionable behavioral insights",
-      color: "from-cyan-500 to-teal-500",
     },
   ];
 
