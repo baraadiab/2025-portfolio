@@ -14,6 +14,17 @@ export default function Portfolio() {
       color: "from-cyan-500 to-teal-500",
     },
     {
+      name: "MSY HAYYOH Loyalty Platform",
+      company: "Bornan Sports Technology",
+      type: "Government Digital Platform",
+      focus: "Four Integrated Applications",
+      description:
+        "A Ministry of Sports and Youth digital platform initiative comprising a mobile application and three web portals for operational roles. Product ownership includes MVP definition, release planning, wireframes, backlog management, and delivery coordination.",
+      outcome:
+        "Defined the MVP and release roadmap; manages a 120+ story backlog with a six-person team across three time zones.",
+      color: "from-blue-500 to-indigo-500",
+    },
+    {
       name: "Agent 360",
       company: "Odea Integrations",
       type: "CCaaS",
@@ -49,8 +60,8 @@ export default function Portfolio() {
       type: "AI/Data",
       focus: "Data Collection & Structuring",
       description:
-        "A powerful scraping engine built to collect and structure data from e-commerce platforms, supporting a recommendation system powered by Neo4j for smarter, personalized user experiences.",
-      outcome: "Efficient data collection, AI-driven recommendations",
+        "A Python web scraper built for Tukan Store to automatically aggregate and update offers from Turkish retail partner websites, supporting deal discovery and personalized recommendations.",
+      outcome: "Aggregated offers from 50+ retail partner websites",
       color: "from-green-500 to-emerald-500",
     },
     {
@@ -59,13 +70,13 @@ export default function Portfolio() {
       type: "E-commerce",
       focus: "Mobile Shopping Platform",
       description:
-        "A mobile shopping platform that delivers the best prices in Türkiye right to your doorstep. Users can browse and purchase top deals instantly through the app.",
-      outcome: "Increased user engagement, streamlined shopping experience",
+        "A deal-discovery platform aggregating sales and offers from Turkish retail websites, with direct links to merchant sites and personalized recommendations based on follows, browsing behavior, and category preferences.",
+      outcome: "Reached 1,000+ users before operations paused due to funding constraints",
       color: "from-yellow-500 to-amber-500",
     },
     {
       name: "Naseem Alsafwa",
-      company: "NBS",
+      company: "NBS Venture",
       type: "E-commerce",
       focus: "Medical Supplies Platform",
       description:
@@ -81,7 +92,7 @@ export default function Portfolio() {
       description:
         "A custom sticker printing platform that empowers individuals and businesses to turn their ideas into high-quality, personalized stickers. With an easy-to-use interface, customers can upload their own designs, choose from a variety of sticker shapes and sizes, and place orders in just a few clicks. Whether you need clear, circle, square, die-cut, or bumper stickers, Stampry delivers fast, vibrant, and durable prints that stick with your story.",
       outcome:
-        "Accessible creative expression, streamlined design-to-print workflow",
+        "Integrated four print partners; generated 100+ pre-launch signups and $1.2K in pre-orders",
       color: "from-pink-500 to-rose-500",
     },
   ];

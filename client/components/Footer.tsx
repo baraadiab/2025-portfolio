@@ -83,7 +83,7 @@ export default function Footer() {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="mailto:baraa98diab@outlook.com"
+                href="mailto:Baraa98diab@gmail.com"
                 className="p-2 rounded-lg bg-blue-50 text-primary hover:bg-blue-100 transition-colors"
                 aria-label="Email"
               >

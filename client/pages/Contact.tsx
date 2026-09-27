@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github, Phone, MapPin } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -59,12 +59,38 @@ export default function Contact() {
                     <p className="text-sm text-muted-foreground">Email</p>
                     <p className="text-lg font-semibold text-foreground">
                       <a
-                        href="mailto:baraa98diab@outlook.com"
+                        href="mailto:Baraa98diab@gmail.com"
                         className="hover:text-primary transition-colors"
                       >
-                        baraa98diab@outlook.com
+                        Baraa98diab@gmail.com
                       </a>
                     </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border border-blue-100 transition-all space-y-4">
+                <div className="flex items-center gap-4">
+                  <div className="p-3 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg">
+                    <Phone className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-sm text-muted-foreground">Phone</p>
+                    <a href="tel:+97471546084" className="text-lg font-semibold text-foreground hover:text-primary transition-colors">
+                      +974 7154 6084
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border border-blue-100 transition-all space-y-4">
+                <div className="flex items-center gap-4">
+                  <div className="p-3 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg">
+                    <MapPin className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-sm text-muted-foreground">Location</p>
+                    <p className="text-lg font-semibold text-foreground">Doha, Qatar</p>
                   </div>
                 </div>
               </div>

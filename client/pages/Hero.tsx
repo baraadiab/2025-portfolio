@@ -29,13 +29,15 @@ export default function Hero() {
               Product Owner | Digital Delivery
             </p>
             <p className="text-lg text-muted-foreground font-medium">
-              CCaaS & SaaS Integrations Specialist
+              SaaS, E-commerce, CCaaS & Government Digital Platforms
             </p>
           </div>
 
           <p className="text-xl text-foreground leading-relaxed max-w-xl">
-            Turning complexity into clarity – building customer-first,
-            integration-ready products
+            Product Owner with 3+ years of experience leading digital delivery
+            from MVP definition through release planning. Currently leading
+            product ownership for Qatar’s Ministry of Sports and Youth HAYYOH
+            platform—four integrated applications serving operational roles.
           </p>
 
           <div className="flex gap-4 pt-4">
