@@ -14,7 +14,7 @@ const experience = [
     dates: "Dec 2025 – Present",
     projects: [
       {
-        name: "Ministry of Sports and Youth (MSY) — HAYYOH Loyalty Platform",
+        name: "Ministry of Sports and Youth (MSY): HAYYOH Loyalty Platform",
         summary:
           "Leading product ownership for a Ministry of Sports and Youth digital initiative consisting of four integrated applications.",
         highlights: [
@@ -119,16 +119,16 @@ const skills = [
 const tools = ["Jira", "Azure DevOps", "Notion", "Slack", "Figma", "Miro", "Mixpanel"];
 
 const certifications = [
-  "AI Product Leadership — Reforge",
-  "Product Experimentation Micro-Certification — Product School",
-  "Product Analytics Micro-Certification — Product School",
-  "Product Discovery Micro-Certification — Product School",
-  "Product Discovery Badge — Pendo",
-  "AI for Product Management — Google Cloud / Pendo",
-  "Professional Scrum Master I — Scrum.org",
-  "Managing Machine Learning Projects — Duke University / Coursera",
-  "JavaScript Algorithms and Data Structures — freeCodeCamp",
-  "Python — Udemy",
+  "AI Product Leadership: Reforge",
+  "Product Experimentation Micro-Certification: Product School",
+  "Product Analytics Micro-Certification: Product School",
+  "Product Discovery Micro-Certification: Product School",
+  "Product Discovery Badge: Pendo",
+  "AI for Product Management: Google Cloud / Pendo",
+  "Professional Scrum Master I: Scrum.org",
+  "Managing Machine Learning Projects: Duke University / Coursera",
+  "JavaScript Algorithms and Data Structures: freeCodeCamp",
+  "Python: Udemy",
 ];
 
 export default function About() {
@@ -162,13 +162,13 @@ export default function About() {
                 Doha, Qatar
               </span>
               <span className="rounded-full bg-primary/10 px-4 py-2 text-primary">
-                Arabic — Native
+                Arabic: Native
               </span>
               <span className="rounded-full bg-primary/10 px-4 py-2 text-primary">
-                English — Professional
+                English: Professional
               </span>
               <span className="rounded-full bg-primary/10 px-4 py-2 text-primary">
-                Turkish — B2
+                Turkish: B2
               </span>
               <span className="rounded-full bg-primary/10 px-4 py-2 text-primary">
                 Turkish Nationality

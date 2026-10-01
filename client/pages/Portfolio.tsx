@@ -8,7 +8,7 @@ export default function Portfolio() {
       type: "SaaS",
       focus: "Customer Loyalty & Retention Platform",
       description:
-        "A unified, intelligent platform that empowers businesses to effortlessly transform every customer interaction—across online, physical, and hybrid channels—into a lasting, profitable relationship through personalized loyalty and deep behavioral insights. Loyalty Plus enables businesses to increase customer lifetime value, improve retention rates, and gain deeper understanding of customer behavior patterns.",
+        "A unified, intelligent platform that empowers businesses to effortlessly transform every customer interaction across online, physical, and hybrid channels into a lasting, profitable relationship through personalized loyalty and deep behavioral insights. Loyalty Plus enables businesses to increase customer lifetime value, improve retention rates, and gain deeper understanding of customer behavior patterns.",
       outcome:
         "Enhanced customer retention, increased lifetime value, actionable behavioral insights",
       color: "from-cyan-500 to-teal-500",
@@ -30,7 +30,7 @@ export default function Portfolio() {
       type: "CCaaS",
       focus: "Agent Desktop + Integrations",
       description:
-        "A unified agent desktop that centralizes tools, channels, and customer data—helping support teams work faster, smarter, and deliver better customer experiences.",
+        "A unified agent desktop that centralizes tools, channels, and customer data, helping support teams work faster, smarter, and deliver better customer experiences.",
       outcome: "Improved agent productivity, centralized workflows",
       color: "from-purple-500 to-pink-500",
     },

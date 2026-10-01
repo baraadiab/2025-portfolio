@@ -37,7 +37,7 @@ export default function Hero() {
             Product Owner with 3+ years of experience leading digital delivery
             from MVP definition through release planning. Currently leading
             product ownership for Qatar’s Ministry of Sports and Youth HAYYOH
-            platform—four integrated applications serving operational roles.
+            platform, with four integrated applications serving operational roles.
           </p>
 
           <div className="flex gap-4 pt-4">
