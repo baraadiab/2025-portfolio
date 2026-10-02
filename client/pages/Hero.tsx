@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Download } from "lucide-react";
+import { downloadCv } from "@/lib/cv-pdf";
 
 export default function Hero() {
   const scrollToAbout = () => {
@@ -47,12 +48,14 @@ export default function Hero() {
             >
               Explore My Work
             </Link>
-            <Link
-              to="/portfolio"
-              className="px-8 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary/5 transition-colors"
+            <button
+              type="button"
+              onClick={downloadCv}
+              className="inline-flex items-center justify-center gap-2 px-8 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary/5 transition-colors"
             >
-              Portfolio
-            </Link>
+              Download CV
+              <Download className="h-4 w-4" aria-hidden="true" />
+            </button>
           </div>
         </div>
 
